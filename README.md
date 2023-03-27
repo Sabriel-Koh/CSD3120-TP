@@ -1,7 +1,11 @@
 
 # CSD3120 Team Project (Group 6)
 This repository contains an interactive application developed by Team 6 for our `CSD3120 - Introduction to Virtual Reality` team project. It serves as both an immersive application, and a research project to gather qualitative data on user studies to both assess, and enhance the `immersion` of the application.
-To learn more about our research processes, you can head to the our [GitHub Wiki Page]().
+
+[Click Here]() to learn more about our research processes.
+
+[Click Here]() to learn more about our application development logs.
+
 
 ## Table Of Contents
 * [Contributors](#Contributors)
@@ -15,18 +19,32 @@ To learn more about our research processes, you can head to the our [GitHub Wiki
 | Name | SIT ID | Contributions
 |--|--|--|
 | [Koh Chun Rou Sabriel](https://github.com/Sabriel-Koh) | **2001404** | // Todo |
-| [Ning Zailin](https://github.com/zachycardia) | **2000892** | // Todo |
-| [Tan Ping Soon Leroy](https://github.com/xGenie97)  | **2001920** | // Todo |
+| [Ning Zailin](https://github.com/zachycardia) | **2000892** | Project Setup + Mechanics |
+| [Tan Ping Soon Leroy](https://github.com/xGenie97)  | **2001920** | Research + Documentation |
 | [David Patrick Dunross Mendoza](https://github.com/ShhPanda)  | **2001005** | // Todo |
 | [Gatchalian Kyle Vincent Velasco](https://github.com/KyleVincentSummer)  | **2000583** | // Todo |
 | [Conor Seow](https://github.com/ConorSeow)  | // Todo | // Todo |
 
 ## Project Brief
-// Todo give a brief introduction to the project and application
+This project is currently in-development, and a immersive VR application, developed with `Unity` using the `Virtual Reality Toolkit` extension. Users can experience how it is like being a pizza chef as they get to try making their own pizzas by:
+| Mechanic | Control |
+|--|--|
+| **Working in different pizza workstations** | Head Tilt via HMD |
+| **Pressing Dough** | // Todo add control |
+| **Adding Toppings / Sauce** | // Todo add control |
+| **Putting / Removing pizza from oven** | // Todo add control |
+| **Pizza Delivery via throwing** | // Todo add control |
+
+The goal of this application development process is to both create as immersive an application as we could, and to also conduct qualitative user studies to access the level of immersion available in the application. With this information, it better guides us as to how we could improve the levels of immersions of the application through the findings and conclusions we get from said user studies.
 
 ## Prerequisites
 To run this application smoothly and without issues, we recommend that you use an `Oculus Quest 2` and a compatible device that meets the minimum system requirements. We recommend this device as the application has been extensively tested with this device.
 You will also need to have `Unity` installed, and have at least `Version 2020.3 or later` as the `XR Interaction Toolkit` is only compatible for these versions.
+
+| Prerequisites |
+|--|
+| **Oculus Quest 2 Recommended** |
+| **Unity Version 2020.3 or later** |
 
 ## How To Run The Project
 // Todo give steps on how users will be able to run the project
