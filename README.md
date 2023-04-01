@@ -29,11 +29,11 @@ This repository contains an interactive application developed by Team 6 for our 
 This project is currently in-development, and a immersive VR application, developed with `Unity` using the `Virtual Reality Toolkit` extension. Users can experience how it is like being a pizza chef as they get to try making their own pizzas by:
 | Mechanic | Control |
 |--|--|
-| **Working in different pizza workstations** | Head Tilt via HMD |
-| **Pressing Dough** | // Todo add control |
-| **Adding Toppings / Sauce** | // Todo add control |
-| **Putting / Removing pizza from oven** | // Todo add control |
-| **Pizza Delivery via throwing** | // Todo add control |
+| **Working in different pizza workstations** | Head Tilt via HMD `Natural Interaction` |
+| **Pressing Dough** | Controller `Natural Interaction` |
+| **Adding Toppings / Sauce via sauce gun** | Controller `Natural Interaction` |
+| **Putting / Removing pizza from oven** | Controller `Natural Interaction` |
+| **Pizza Delivery via throwing into delivery hole** | Controller `Natural Interaction` |
 
 The goal of this application development process is to both create as immersive an application as we could, and to also conduct qualitative user studies to access the level of immersion available in the application. With this information, it better guides us as to how we could improve the levels of immersions of the application through the findings and conclusions we get from said user studies.
 
