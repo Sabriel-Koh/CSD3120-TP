@@ -4203,6 +4203,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1305871494, guid: c7c2a66cc88a5dd45b8988f0ea19a0de, type: 3}
+      propertyPath: spawnRate
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1305871494, guid: c7c2a66cc88a5dd45b8988f0ea19a0de, type: 3}
+      propertyPath: spawnOffset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1305871494, guid: c7c2a66cc88a5dd45b8988f0ea19a0de, type: 3}
+      propertyPath: spawnOffset.y
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1305871494, guid: c7c2a66cc88a5dd45b8988f0ea19a0de, type: 3}
+      propertyPath: spillageAngle
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1305871494, guid: c7c2a66cc88a5dd45b8988f0ea19a0de, type: 3}
+      propertyPath: numSpawnPerUpdate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 599945658165782801, guid: c7c2a66cc88a5dd45b8988f0ea19a0de, type: 3}
       propertyPath: m_RootOrder
       value: 3
