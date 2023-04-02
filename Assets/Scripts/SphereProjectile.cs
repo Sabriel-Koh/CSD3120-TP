@@ -14,5 +14,11 @@ public class SphereProjectile : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         
         rb.AddForce(transform.right * Force, ForceMode.Impulse);
+        Destroy(this, 8.0f);
     }
+
+    //void OnCollisionEnter(Collision collision)
+    //{
+    //    Destroy(gameObject);
+    //}
 }

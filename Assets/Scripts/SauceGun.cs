@@ -8,8 +8,8 @@ public class SauceGun : MonoBehaviour
     [SerializeField] GameObject Ball;
 
     private void Update() {
-        if(Input.GetButtonDown("Fire1")) {
+        //if(Input.GetButtonDown("Fire1")) {
             Instantiate(Ball, BallSpawnPoint.transform.position, BallSpawnPoint.transform.rotation);
-        }
+        //}
     }
 }
