@@ -16,9 +16,4 @@ public class SecondaryHandController : HandControllerBase
     {
         rayInteractor = rayInteractorGameObject.GetComponent<XRRayInteractor>();
     }
-
-    private void Update()
-    {
-
-    }
 }
