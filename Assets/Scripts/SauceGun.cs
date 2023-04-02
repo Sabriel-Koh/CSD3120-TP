@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class SauceGun : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] GameObject BallSpawnPoint;
+    [SerializeField] GameObject Ball;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void Update() {
+        if(Input.GetButtonDown("Fire1")) {
+            Instantiate(Ball, BallSpawnPoint.transform.position, BallSpawnPoint.transform.rotation);
+        }
     }
 }
