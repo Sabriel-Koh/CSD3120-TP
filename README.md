@@ -38,6 +38,58 @@ This project is currently in-development, and a immersive VR application, develo
 
 The goal of this application development process is to both create as immersive an application as we could, and to also conduct qualitative user studies to access the level of immersion available in the application. With this information, it better guides us as to how we could improve the levels of immersions of the application through the findings and conclusions we get from said user studies.
 
+## Software Architecture
+### Folder Structure
+Our application's folder structure is organized as follows:
+```
+├── Assets/
+│   ├── Materials/
+│   └── Prefabs/
+│   └── Samples/
+│   └── Scenes/
+│   └── Scripts/
+│   └── TextMesh Pro/
+│   └── XR/
+│   └── XRI/
+│   └── Materials.meta
+│   └── Prefabs.meta
+│   └── Samples.meta
+│   └── Scenes.meta
+│   └── Scripts.meta
+│   └── TextMesh Pro.meta
+│   └── Textures.meta
+│   └── XR.meta
+│   └── XRI.meta
+├── Packages/
+│   ├── manifest.json
+│   └── packages-lock.json
+├── ProjectSettings/.../.../
+├── UserStudies/
+│   ├── Initial Prototype User Testing/
+|       ├── Flow Questionnaire Results/
+|       └── Presence Questionnaire Results/
+|       └── Sickness Questionnaire Results/
+│   └── Questionnaires/
+|       ├── Custom Game Flow Scale Questionnaire.pdf
+|       └── Custom Presence Questionnaire.pdf
+|       └── Custom Simulation Sickness Questionnaire.pdf
+│   └── Release Prototype User Testing/
+|       ├── Flow Questionnaire Results/
+|       └── Presence Questionnaire Results/
+|       └── Sickness Questionnaire Results/
+├── .editorconfig
+├── .vsconfig
+└── README.md
+```
+### Folder Descriptions
+- `Assets/` : ...
+- `Packages/` : ...
+- `ProjectSettings/` : ...
+- `UserStudies/` : ...
+- `UserStudies/Initial Prototype User Testing/` : ...
+- `UserStudies/Questionnaires/` : ...
+- `UserStudies/Release Prototype User Testing/` : ...
+
 ## Prerequisites
 To run this application smoothly and without issues, we recommend that you use an `Oculus Quest 2` and a compatible device that meets the minimum system requirements. We recommend this device as the application has been extensively tested with this device.
 You will also need to have `Unity` installed, and have at least `Version 2020.3 or later` as the `XR Interaction Toolkit` is only compatible for these versions.
@@ -46,6 +98,8 @@ You will also need to have `Unity` installed, and have at least `Version 2020.3 
 |--|
 | **Oculus Quest 2 Recommended** |
 | **Unity Version 2020.3 or later** |
+
+
 
 ## How To Run The Project
 // Todo give steps on how users will be able to run the project
