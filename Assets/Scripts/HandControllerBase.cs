@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class HandControllerBase : MonoBehaviour
+public class HandControllerBase : InteractorBase
 {
     [System.Serializable]
     public class HoverEnterEvent : UnityEvent<HoverEnterEventArgs> { };
@@ -17,6 +17,7 @@ public class HandControllerBase : MonoBehaviour
 
     [SerializeField] private HandVisualizer visualizer;
 
+    [Header("Events")]
     [SerializeField] public HoverEnterEvent hoverEnterEvent;
     [SerializeField] public HoverExitEvent hoverExitEvent;
     [SerializeField] public SelectEnterEvent selectEnterEvent;
@@ -28,28 +29,36 @@ public class HandControllerBase : MonoBehaviour
     // Flag for whether the controller is performing a selection.
     public bool IsSelecting { get; private set; }
 
-    public virtual void OnHoverEnter(HoverEnterEventArgs args)
+    public override void OnHoverEnter(HoverEnterEventArgs args)
     {
+        base.OnHoverEnter(args);
+
         hoverEnterEvent.Invoke(args);
         IsHovering = true;
     }
 
-    public virtual void OnHoverExit(HoverExitEventArgs args)
+    public override void OnHoverExit(HoverExitEventArgs args)
     {
+        base.OnHoverExit(args);
+
         hoverExitEvent.Invoke(args);
         IsHovering = false;
     }
 
-    public virtual void OnSelectEnter(SelectEnterEventArgs args)
+    public override void OnSelectEnter(SelectEnterEventArgs args)
     {
+        base.OnSelectEnter(args);
+
         selectEnterEvent.Invoke(args);
         IsSelecting = true;
 
         visualizer.SetState(HandVisualizer.State.Select);
     }
 
-    public virtual void OnSelectExit(SelectExitEventArgs args)
+    public override void OnSelectExit(SelectExitEventArgs args)
     {
+        base.OnSelectExit(args);
+
         selectExitEvent.Invoke(args);
         IsSelecting = false;
 
