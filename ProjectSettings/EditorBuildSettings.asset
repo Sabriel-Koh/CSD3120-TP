@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/LEVEL_Kitchen.unity
+    guid: 92cc239c7d44e9249baa940d32fdc1aa
+  - enabled: 1
+    path: Assets/Samples/WebXR Interactions/0.16.3-preview/Sample Scene/Scenes/Desert.unity
+    guid: 85380d4847db7b74a850284461349c36
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c74cd15027bad564899f19a8fc52c310, type: 2}
+    WebXR.Settings: {fileID: 11400000, guid: 6d34afbba5be3394da2fbbf4d65eb93e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3829f78fe7555a94095c634a19904c6c, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 5ef0e06042e791547b66affc31936e58, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 01473d27c0f7b3940a107a19f9d40c11, type: 2}
