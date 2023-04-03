@@ -4408,6 +4408,10 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 414852963}
+    - target: {fileID: 1967431346, guid: f1e241def4091984a9c7a9fedf7d34a3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4361618331330483800, guid: f1e241def4091984a9c7a9fedf7d34a3, type: 3}
       propertyPath: m_Name
       value: SauceGun
