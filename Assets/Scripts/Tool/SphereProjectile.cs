@@ -29,6 +29,7 @@ public class SphereProjectile : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        if (collision.gameObject.tag == "SauceGun") { return; }
         Destroy(gameObject);
     }
 }

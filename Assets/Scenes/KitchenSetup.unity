@@ -2962,6 +2962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SauceGun
       objectReference: {fileID: 0}
+    - target: {fileID: 4361618331330483800, guid: f1e241def4091984a9c7a9fedf7d34a3, type: 3}
+      propertyPath: m_TagString
+      value: SauceGun
+      objectReference: {fileID: 0}
     - target: {fileID: 4361618331330483806, guid: f1e241def4091984a9c7a9fedf7d34a3, type: 3}
       propertyPath: m_RootOrder
       value: 3
