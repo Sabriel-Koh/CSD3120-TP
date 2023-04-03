@@ -11,8 +11,8 @@ This repository contains an interactive application developed by Team 6 for our 
 * [Contributors](#Contributors)
 * [Project Brief](#Project-Brief)
 * [Project Requirements](#Prerequisites)
-* [How To Run The Project](#How-To-Run-The-Project)
 * [Project Software Architecture](#Software-Architecture)
+* [How To Run The Project](#How-To-Run-The-Project)
 * [Application Demo](#Application-Demo)
 
 ## Contributors
