@@ -8,17 +8,27 @@ public class SphereProjectile : MonoBehaviour
     [SerializeField] float Force = 5.0f;
     Rigidbody rb;
 
+    private float timer = 8.0f;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         
         rb.AddForce(transform.right * Force, ForceMode.Impulse);
-        Destroy(this, 8.0f);
     }
 
-    //void OnCollisionEnter(Collision collision)
-    //{
-    //    Destroy(gameObject);
-    //}
+    void Update()
+    {
+        timer -= Time.deltaTime;
+        if (timer <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        Destroy(gameObject);
+    }
 }
