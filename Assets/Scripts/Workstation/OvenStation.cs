@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider))]
 public class OvenStation : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private float bakeLevelPerSecond;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerStay(Collider other)
     {
-        
+        if (other.gameObject.tag != "Pizza") { return; }
+
+        float bakeLevel = Time.deltaTime * bakeLevelPerSecond;
+        other.gameObject.GetComponent<Pizza>().AddBakeLevel(bakeLevel);
     }
 }
