@@ -43,7 +43,9 @@ The goal of this application development process is to both create as immersive 
 Our application's folder structure is organized as follows:
 ```
 ├── Assets/
-│   ├── Materials/
+│   ├── Audio/
+│   └── DataObjects/
+│   └── Materials/
 │   └── Prefabs/
 │   └── Samples/
 │   └── Scenes/
@@ -82,13 +84,15 @@ Our application's folder structure is organized as follows:
 └── README.md
 ```
 ### Folder Descriptions
-- `Assets/` : ...
-- `Packages/` : ...
-- `ProjectSettings/` : ...
-- `UserStudies/` : ...
-- `UserStudies/Initial Prototype User Testing/` : ...
-- `UserStudies/Questionnaires/` : ...
-- `UserStudies/Release Prototype User Testing/` : ...
+- `Assets/` : This folder contains all the assets that will be used in the application.
+- `Assets/Audio` : This folder contains all the sound effects and background music that we will be using in the application.
+- `Assets/DataObjects` : This folder stores data for each scriptable object that we create in the game.
+- `Packages/` : Project-generated folder used to store any imported packages used.
+- `ProjectSettings/` : Contains the Unity Project Settings.
+- `UserStudies/` : This folder contains all necessary files and folders required for the user testing portion of this project.
+- `UserStudies/Initial Prototype User Testing/` : Contains the user testing data for our initial prototype build.
+- `UserStudies/Questionnaires/` : Contains the custom crafted questionnaires for Presence, Flow, Cybersickness.
+- `UserStudies/Release Prototype User Testing/` : Contains the user testing data for our release build.
 
 ## Prerequisites
 To run this application smoothly and without issues, we recommend that you use an `Oculus Quest 2` and a compatible device that meets the minimum system requirements. We recommend this device as the application has been extensively tested with this device.
