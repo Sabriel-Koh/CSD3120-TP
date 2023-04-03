@@ -11,13 +11,11 @@ public abstract class InteractableBase : MonoBehaviour
     {
         if (interactableScript == null)
         {
-            Debug.Log("Null Script.");
             interactableScript = GetComponent<XRBaseInteractable>();
         }
 
         if (interactableScript)
         {
-            Debug.Log("Has Script.");
             interactableScript.hoverEntered.AddListener(OnHoverEnter);
             interactableScript.hoverExited.AddListener(OnHoverExit);
             interactableScript.selectEntered.AddListener(OnSelectEnter);

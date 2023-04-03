@@ -13,16 +13,25 @@ public class SauceGun : InteractableBase
     private bool isFiring = false;
     private float fireTimer;
 
+    private AudioSource audioSource;
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     public override void OnActivate(ActivateEventArgs args)
     {
         base.OnActivate(args);
         isFiring = true;
+        audioSource.Play();
     }
 
     public override void OnDeactivate(DeactivateEventArgs args)
     {
         base.OnDeactivate(args);
         isFiring = false;
+        audioSource.Stop();
     }
 
     private void Update()
