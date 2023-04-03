@@ -18,12 +18,12 @@ This repository contains an interactive application developed by Team 6 for our 
 ## Contributors
 | Name | SIT ID | Contributions
 |--|--|--|
-| [Koh Chun Rou Sabriel](https://github.com/Sabriel-Koh) | **2001404** | // Todo |
+| [Koh Chun Rou Sabriel](https://github.com/Sabriel-Koh) | **2001404** | Art Assets / Deployment |
 | [Ning Zailin](https://github.com/zachycardia) | **2000892** | Project Setup + Mechanics |
 | [Tan Ping Soon Leroy](https://github.com/xGenie97)  | **2001920** | Research + Documentation |
-| [David Patrick Dunross Mendoza](https://github.com/ShhPanda)  | **2001005** | // Todo |
-| [Gatchalian Kyle Vincent Velasco](https://github.com/KyleVincentSummer)  | **2000583** | // Todo |
-| [Conor Seow Jun Xian](https://github.com/ConorSeow)  | **2000734** | // Todo |
+| [David Patrick Dunross Mendoza](https://github.com/ShhPanda)  | **2001005** | Audio Engineer / User Evaluation |
+| [Gatchalian Kyle Vincent Velasco](https://github.com/KyleVincentSummer)  | **2000583** | Interactions Scripter |
+| [Conor Seow Jun Xian](https://github.com/ConorSeow)  | **2000734** | Video / User Evaluation |
 
 ## Project Brief
 This project is currently in-development, and a immersive VR application, developed with `Unity` using the `Virtual Reality Toolkit` extension. Users can experience how it is like being a pizza chef as they get to try making their own pizzas by:
