@@ -130,6 +130,21 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-3833855466877728596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
+  m_Name: WebGL
+  m_EditorClassIdentifier: 
+  features: []
+  m_renderMode: 1
+  m_depthSubmissionMode: 0
 --- !u!114 &-2296516447246573818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,7 +191,7 @@ MonoBehaviour:
   Values:
   - {fileID: -5225893085810813785}
   - {fileID: -7181648909749314720}
-  - {fileID: 8064984145567014859}
+  - {fileID: -3833855466877728596}
 --- !u!114 &538046266946011558
 MonoBehaviour:
   m_ObjectHideFlags: 0
