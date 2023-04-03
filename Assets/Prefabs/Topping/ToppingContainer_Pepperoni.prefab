@@ -228,10 +228,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactableScript: {fileID: 0}
   toppingObject: {fileID: 7547127670391969914, guid: d909cd1af9a14614db4c22208f01a619, type: 3}
-  spawnOffset: {x: 0, y: 0, z: 0}
-  spillageAngle: 0
-  numSpawnPerUpdate: 0
-  spawnRate: 0
+  spawnOffset: {x: 0, y: 0.55, z: 0}
+  spillageAngle: 55
+  numSpawnPerUpdate: 1
+  spawnRate: 0.3
 --- !u!114 &599945658165782804
 MonoBehaviour:
   m_ObjectHideFlags: 0
