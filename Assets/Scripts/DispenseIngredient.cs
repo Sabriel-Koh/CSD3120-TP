@@ -9,6 +9,11 @@ public class DispenseIngredient : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Instantiate(Ingredient, this.transform.position, this.transform.rotation);
+    }
+
+    public void Dispense()
+    {
         Instantiate(Ingredient, this.transform.position, this.transform.rotation);
     }
 }
