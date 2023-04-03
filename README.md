@@ -106,7 +106,9 @@ You will also need to have `Unity` installed, and have at least `Version 2020.3 
 | **Unity Version 2021 LTS or later** | If you want to run our build in Unity. |
 
 ## How To Run The Project
-// Todo give steps on how users will be able to run the project
+You can play our game [here](https://sabriel-koh.github.io/).
 
 ## Application Demo
-// Todo : Link to ~3 min video w/ commentary of the application
+
+- Here is the [link](https://www.youtube.com/watch?v=SVx3GSTaRiQ) to our gameplay video.
+- Here is the [link](https://www.youtube.com/watch?v=SjklW8DeNs8) to the gameplay video with developer commentary.
