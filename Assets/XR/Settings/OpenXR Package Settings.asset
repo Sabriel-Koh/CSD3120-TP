@@ -177,6 +177,7 @@ MonoBehaviour:
   - {fileID: -5225893085810813785}
   - {fileID: -7181648909749314720}
   - {fileID: 8064984145567014859}
+  - {fileID: 8907409191065771210}
 --- !u!114 &538046266946011558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,6 +466,7 @@ MonoBehaviour:
   targetQuest: 1
   targetQuest2: 1
 --- !u!114 &8064984145567014859
+--- !u!114 &8907409191065771210
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

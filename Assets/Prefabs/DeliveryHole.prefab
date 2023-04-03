@@ -144,7 +144,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -5124,5 +5124,7 @@ MonoBehaviour:
   collisionManager: {fileID: 1903584479006743612}
   indicator: {fileID: 861140120}
   emitter: {fileID: 1502575636}
+  successParticleCount: 24
   neutralColor: {r: 1, g: 1, b: 0, a: 0}
   successColor: {r: 0, g: 1, b: 0, a: 0}
+  successLightDuration: 2
