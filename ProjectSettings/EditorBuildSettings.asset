@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LEVEL_Kitchen.unity
     guid: 92cc239c7d44e9249baa940d32fdc1aa
-  - enabled: 1
+  - enabled: 0
     path: Assets/Samples/WebXR Interactions/0.16.3-preview/Sample Scene/Scenes/Desert.unity
     guid: 85380d4847db7b74a850284461349c36
+  - enabled: 1
+    path: Assets/Scenes/KitchenSetup.unity
+    guid: 654a24d9abef93c45952d3b7b5e63305
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c74cd15027bad564899f19a8fc52c310, type: 2}
     WebXR.Settings: {fileID: 11400000, guid: 6d34afbba5be3394da2fbbf4d65eb93e, type: 2}
