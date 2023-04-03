@@ -1791,6 +1791,10 @@ PrefabInstance:
       value: IngredientDispenser (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1280631604375116986, guid: c93206f8978090a43b71afdfa5744ee2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1280631604375116986, guid: c93206f8978090a43b71afdfa5744ee2, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -1869,7 +1873,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -2266,6 +2270,10 @@ PrefabInstance:
     - target: {fileID: 1280631604375116986, guid: c93206f8978090a43b71afdfa5744ee2, type: 3}
       propertyPath: m_Name
       value: IngredientDispenser
+      objectReference: {fileID: 0}
+    - target: {fileID: 1280631604375116986, guid: c93206f8978090a43b71afdfa5744ee2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1280631604375116986, guid: c93206f8978090a43b71afdfa5744ee2, type: 3}
       propertyPath: m_StaticEditorFlags
