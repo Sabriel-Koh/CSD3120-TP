@@ -2,9 +2,9 @@
 # CSD3120 Team Project (Group 6)
 This repository contains an interactive application developed by Team 6 for our `CSD3120 - Introduction to Virtual Reality` team project. It serves as both an immersive application, and a research project to gather qualitative data on user studies to both assess, and enhance the `immersion` of the application.
 
-[Click Here]() to learn more about our research processes.
+[Click Here](https://github.com/Sabriel-Koh/CSD3120-TP/wiki) to learn more about our research processes.
 
-[Click Here]() to learn more about our application development logs.
+[Click Here](https://github.com/Sabriel-Koh/CSD3120-TP/wiki/Application-Development-Log) to learn more about our application development logs.
 
 
 ## Table Of Contents
@@ -32,7 +32,9 @@ This project is currently in-development, and a immersive VR application, develo
 | **Teleportation** |  Locomotion `Enhance Natural Interaction` | ✔️ |
 | **Working in different pizza workstations** | Head Tilt via HMD `Natural Interaction` | ✔️ |
 | **Pressing Dough** | Controller `Natural Interaction` |  WIP💻 |
-| **Adding Toppings / Sauce via sauce gun** | Controller `Natural Interaction` Different toppings container drops different types of toppings such as ***capsicum***, ***pepperoni***, ***mushroom***, ***tomato***, `triggering` sauce gun shoots ***ketchup***. | ✔️ |
+| **Adding Toppings** | Controller `Natural Interaction` Different topping containers drops different types of toppings when you use them and shake them upside down. There will be different toppings such as ***capsicum***, ***pepperoni***, ***mushroom***, and ***sliced tomato***. | ✔️ |
+| **Cheese Dispenser** | Controller `Natural Interaction` There will be a dispenser where you can press a button to dispense cheese for your pizza. | ✔️ |
+| **Sauce Gun** | Controller `Natural Interaction` There will be a red sauce gun in the scene. If you trigger the gun, it will shoot out ***ketchup***. | ✔️ |
 | **Putting / Removing pizza from oven** | Controller `Natural Interaction` | WIP💻 |
 | **Pizza Delivery via throwing into delivery hole** | Controller `Natural Interaction` | ✔️ |
 
