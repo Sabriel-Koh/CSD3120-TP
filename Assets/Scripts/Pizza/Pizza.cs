@@ -71,6 +71,7 @@ public class Pizza : MonoBehaviour
     private void OnBakeReady()
     {
         readyEmitter.Emit(readyParticleCount);
+        GetComponent<AudioSource>().Play();
     }
 
     private void ConsumeTopping(Topping topping)
