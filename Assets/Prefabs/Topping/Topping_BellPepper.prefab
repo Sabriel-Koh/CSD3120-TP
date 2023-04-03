@@ -54,6 +54,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7547127670391969910}
     m_Modifications:
+    - target: {fileID: 3856103214622573442, guid: 85650ce63efce4849986302aa38c779f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8175229482239918205, guid: 85650ce63efce4849986302aa38c779f, type: 3}
+      propertyPath: m_Mass
+      value: 0.0000001
+      objectReference: {fileID: 0}
     - target: {fileID: 8408828368350011366, guid: 85650ce63efce4849986302aa38c779f, type: 3}
       propertyPath: m_Name
       value: Bell pepper green slice
@@ -64,15 +72,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9221674897607656796, guid: 85650ce63efce4849986302aa38c779f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.9
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 9221674897607656796, guid: 85650ce63efce4849986302aa38c779f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.9
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 9221674897607656796, guid: 85650ce63efce4849986302aa38c779f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.9
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 9221674897607656796, guid: 85650ce63efce4849986302aa38c779f, type: 3}
       propertyPath: m_LocalPosition.x
