@@ -2,9 +2,9 @@
 # CSD3120 Team Project (Group 6)
 This repository contains an interactive application developed by Team 6 for our `CSD3120 - Introduction to Virtual Reality` team project. It serves as both an immersive application, and a research project to gather qualitative data on user studies to both assess, and enhance the `immersion` of the application.
 
-[Click Here]() to learn more about our research processes.
+[Click Here](https://github.com/Sabriel-Koh/CSD3120-TP/wiki) to learn more about our research processes.
 
-[Click Here]() to learn more about our application development logs.
+[Click Here](https://github.com/Sabriel-Koh/CSD3120-TP/wiki/Application-Development-Log) to learn more about our application development logs.
 
 
 ## Table Of Contents
