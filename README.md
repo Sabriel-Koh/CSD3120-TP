@@ -27,12 +27,12 @@ This repository contains an interactive application developed by Team 6 for our 
 
 ## Project Brief
 This project is currently in-development, and a immersive VR application, developed with `Unity` using the `Virtual Reality Toolkit` extension. Users can experience how it is like being a pizza chef as they get to try making their own pizzas by:
-| Feature | Control | Status |
+| Feature | Control / Description | Status |
 |--|--|--|
 | **Teleportation** |  Locomotion `Enhance Natural Interaction` | ✔️ |
 | **Working in different pizza workstations** | Head Tilt via HMD `Natural Interaction` | ✔️ |
 | **Pressing Dough** | Controller `Natural Interaction` |  WIP💻 |
-| **Adding Toppings / Sauce via sauce gun** | Controller `Natural Interaction` | ✔️ |
+| **Adding Toppings / Sauce via sauce gun** | Controller `Natural Interaction` Different toppings container drops different types of toppings such as ***capsicum***, ***pepperoni***, ***mushroom***, ***tomato***, `triggering` sauce gun shoots ***ketchup***. | ✔️ |
 | **Putting / Removing pizza from oven** | Controller `Natural Interaction` | WIP💻 |
 | **Pizza Delivery via throwing into delivery hole** | Controller `Natural Interaction` | ✔️ |
 
@@ -98,10 +98,10 @@ Our application's folder structure is organized as follows:
 To run this application smoothly and without issues, we recommend that you use an `Oculus Quest 2` and a compatible device that meets the minimum system requirements. We recommend this device as the application has been extensively tested with this device.
 You will also need to have `Unity` installed, and have at least `Version 2020.3 or later` as the `XR Interaction Toolkit` is only compatible for these versions.
 
-| Prerequisites |
-|--|
-| **Oculus Quest 2 Recommended** |
-| **Unity Version 2021 LTS or later** |
+| Prerequisites | Description |
+|--|--|
+| **Oculus Quest 2 Recommended** | Should be able to access your browser from your HMD. |
+| **Unity Version 2021 LTS or later** | If you want to run our build in Unity. |
 
 ## How To Run The Project
 // Todo give steps on how users will be able to run the project
